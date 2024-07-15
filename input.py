@@ -1,5 +1,5 @@
 #   --------------------------------注释区--------------------------------
-#   入口:http://ap.svms.cn/index/zc/cherry?code=B1Y742
+#   入口:http://ap.svm123s.cn/index/zc/cherry?code=B1Y742
 #   邀请码B1Y742 走个头谢谢
 #   变量:yuanshen_ytsh
 #   多号分割方式 [ @ 或 换行 或 新建同名变量 ]

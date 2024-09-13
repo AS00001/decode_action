@@ -1,1 +1,1752 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=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'))
+# !/usr/bin/python3
+# -- coding: utf-8 --
+# -------------------------------
+# @Author : cherwin
+# cron "5 5,17 * * *" script-path=xxx.py,tag=匹配cron用
+# const $ = new Env('顺丰速运')
+import hashlib
+import json
+import os
+import random
+import time
+from datetime import datetime, timedelta
+from sys import exit
+import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+# 禁用安全请求警告
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
+IS_DEV = False
+if os.path.isfile('DEV_ENV.py'):
+    import DEV_ENV
+
+    IS_DEV = True
+
+if os.path.isfile('notify.py'):
+    from notify import send
+
+    print("加载通知服务成功！")
+else:
+    print("加载通知服务失败!")
+send_msg = ''
+one_msg = ''
+
+
+def Log(cont=''):
+    global send_msg, one_msg
+    print(cont)
+    if cont:
+        one_msg += f'{cont}\n'
+        send_msg += f'{cont}\n'
+
+
+# 1905 #0945 #6332 #6615 2559
+inviteId = [
+    '8C3950A023D942FD93BE9218F5BFB34B', 'EF94619ED9C84E968C7A88CFB5E0B5DC', '9C92BD3D672D4B6EBB7F4A488D020C79',
+    '803CF9D1E0734327BDF67CDAE1442B0E', '00C81F67BE374041A692FA034847F503']
+
+
+class RUN:
+    def __init__(self, info, index):
+        global one_msg
+        one_msg = ''
+        split_info = info.split('@')
+        url = split_info[0]
+        len_split_info = len(split_info)
+        last_info = split_info[len_split_info - 1]
+        self.send_UID = None
+        if len_split_info > 0 and "UID_" in last_info:
+            self.send_UID = last_info
+        self.index = index + 1
+        Log(f"\n---------开始执行第{self.index}个账号>>>>>")
+        self.s = requests.session()
+        self.s.verify = False
+        self.headers = {
+            'Host': 'mcs-mimp-web.sf-express.com',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090551) XWEB/6945 Flue',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'sec-fetch-site': 'none',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-user': '?1',
+            'sec-fetch-dest': 'document',
+            'accept-language': 'zh-CN,zh',
+            'platform': 'MINI_PROGRAM',
+
+        }
+        self.anniversary_black = False
+        self.member_day_black = False
+        self.member_day_red_packet_drew_today = False
+        self.member_day_red_packet_map = {}
+        self.login_res = self.login(url)
+        self.today = datetime.now().strftime('%Y-%m-%d')
+        self.answer = APP_INFO.get('ANSWER', []).get(self.today, False)
+        self.max_level = 8
+        self.packet_threshold = 1 << (self.max_level - 1)
+
+    def get_deviceId(self, characters='abcdef0123456789'):
+        result = ''
+        for char in 'xxxxxxxx-xxxx-xxxx':
+            if char == 'x':
+                result += random.choice(characters)
+            elif char == 'X':
+                result += random.choice(characters).upper()
+            else:
+                result += char
+        return result
+
+    def login(self, sfurl):
+        ress = self.s.get(sfurl, headers=self.headers)
+        # print(ress.text)
+        self.user_id = self.s.cookies.get_dict().get('_login_user_id_', '')
+        self.phone = self.s.cookies.get_dict().get('_login_mobile_', '')
+        self.mobile = self.phone[:3] + "*" * 4 + self.phone[7:]
+        if self.phone != '':
+            Log(f'用户:【{self.mobile}】登陆成功')
+            return True
+        else:
+            Log(f'获取用户信息失败')
+            return False
+
+    def getSign(self):
+        timestamp = str(int(round(time.time() * 1000)))
+        token = 'wwesldfs29aniversaryvdld29'
+        sysCode = 'MCS-MIMP-CORE'
+        data = f'token={token}&timestamp={timestamp}&sysCode={sysCode}'
+        signature = hashlib.md5(data.encode()).hexdigest()
+        data = {
+            'sysCode': sysCode,
+            'timestamp': timestamp,
+            'signature': signature
+        }
+        self.headers.update(data)
+        return data
+
+    def do_request(self, url, data={}, req_type='post'):
+        self.getSign()
+        try:
+            if req_type.lower() == 'get':
+                response = self.s.get(url, headers=self.headers)
+            elif req_type.lower() == 'post':
+                response = self.s.post(url, headers=self.headers, json=data)
+            else:
+                raise ValueError('Invalid req_type: %s' % req_type)
+            res = response.json()
+            return res
+        except requests.exceptions.RequestException as e:
+            print('Request failed:', e)
+            return None
+        except json.JSONDecodeError as e:
+            print('JSON decoding failed:', e)
+            return None
+
+    def sign(self):
+        print(f'>>>>>>开始执行签到')
+        json_data = {"comeFrom": "vioin", "channelFrom": "WEIXIN"}
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~integralTaskSignPlusService~automaticSignFetchPackage'
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True:
+            count_day = response.get('obj', {}).get('countDay', 0)
+            if response.get('obj') and response['obj'].get('integralTaskSignPackageVOList'):
+                packet_name = response["obj"]["integralTaskSignPackageVOList"][0]["packetName"]
+                Log(f'>>>签到成功，获得【{packet_name}】，本周累计签到【{count_day + 1}】天')
+            else:
+                Log(f'今日已签到，本周累计签到【{count_day + 1}】天')
+        else:
+            print(f'签到失败！原因：{response.get("errorMessage")}')
+
+    def superWelfare_receiveRedPacket(self):
+        print(f'>>>>>>超值福利签到')
+        json_data = {
+            'channel': 'czflqdlhbxcx'
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberActLengthy~redPacketActivityService~superWelfare~receiveRedPacket'
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True:
+            gift_list = response.get('obj', {}).get('giftList', [])
+            if response.get('obj', {}).get('extraGiftList', []):
+                gift_list.extend(response['obj']['extraGiftList'])
+            gift_names = ', '.join([gift['giftName'] for gift in gift_list])
+            receive_status = response.get('obj', {}).get('receiveStatus')
+            status_message = '领取成功' if receive_status == 1 else '已领取过'
+            Log(f'超值福利签到[{status_message}]: {gift_names}')
+        else:
+            error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+            print(f'超值福利签到失败: {error_message}')
+
+    def get_SignTaskList(self, END=False):
+        if not END: print(f'>>>开始获取签到任务列表')
+        json_data = {
+            'channelType': '3',
+            'deviceId': self.get_deviceId(),
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~integralTaskStrategyService~queryPointTaskAndSignFromES'
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True and response.get('obj') != []:
+            totalPoint = response["obj"]["totalPoint"]
+            if END:
+                Log(f'当前积分：【{totalPoint}】')
+                return
+            Log(f'执行前积分：【{totalPoint}】')
+            for task in response["obj"]["taskTitleLevels"]:
+                self.taskId = task["taskId"]
+                self.taskCode = task["taskCode"]
+                self.strategyId = task["strategyId"]
+                self.title = task["title"]
+                status = task["status"]
+                skip_title = ['用行业模板寄件下单', '去新增一个收件偏好', '参与积分活动']
+                if status == 3:
+                    print(f'>{self.title}-已完成')
+                    continue
+                if self.title in skip_title:
+                    print(f'>{self.title}-跳过')
+                    continue
+                else:
+                    # print("taskId:", taskId)
+                    # print("taskCode:", taskCode)
+                    # print("----------------------")
+                    self.doTask()
+                    time.sleep(3)
+                self.receiveTask()
+
+    def doTask(self):
+        print(f'>>>开始去完成【{self.title}】任务')
+        json_data = {
+            'taskCode': self.taskCode,
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonRoutePost/memberEs/taskRecord/finishTask'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'>【{self.title}】任务-已完成')
+        else:
+            print(f'>【{self.title}】任务-{response.get("errorMessage")}')
+
+    def receiveTask(self):
+        print(f'>>>开始领取【{self.title}】任务奖励')
+        json_data = {
+            "strategyId": self.strategyId,
+            "taskId": self.taskId,
+            "taskCode": self.taskCode,
+            "deviceId": self.get_deviceId()
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~integralTaskStrategyService~fetchIntegral'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'>【{self.title}】任务奖励领取成功！')
+        else:
+            print(f'>【{self.title}】任务-{response.get("errorMessage")}')
+
+    def do_honeyTask(self):
+        # 做任务
+        json_data = {"taskCode": self.taskCode}
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberEs~taskRecord~finishTask'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'>【{self.taskType}】任务-已完成')
+        else:
+            print(f'>【{self.taskType}】任务-{response.get("errorMessage")}')
+
+    def receive_honeyTask(self):
+        print('>>>执行收取丰蜜任务')
+        # 收取
+        self.headers['syscode'] = 'MCS-MIMP-CORE'
+        self.headers['channel'] = 'wxwdsj'
+        self.headers['accept'] = 'application/json, text/plain, */*'
+        self.headers['content-type'] = 'application/json;charset=UTF-8'
+        self.headers['platform'] = 'MINI_PROGRAM'
+        json_data = {"taskType": self.taskType}
+        # print(json_data)
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~receiveExchangeIndexService~receiveHoney'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'收取任务【{self.taskType}】成功！')
+        else:
+            print(f'收取任务【{self.taskType}】失败！原因：{response.get("errorMessage")}')
+
+    def get_coupom(self):
+        print('>>>执行领取生活权益领券任务')
+        # 领取生活权益领券
+        # https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberGoods~pointMallService~createOrder
+
+        json_data = {
+            "from": "Point_Mall",
+            "orderSource": "POINT_MALL_EXCHANGE",
+            "goodsNo": self.goodsNo,
+            "quantity": 1,
+            "taskCode": self.taskCode
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberGoods~pointMallService~createOrder'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'>领券成功！')
+        else:
+            print(f'>领券失败！原因：{response.get("errorMessage")}')
+
+    def get_coupom_list(self):
+        print('>>>获取生活权益券列表')
+        # 领取生活权益领券
+        # https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberGoods~pointMallService~createOrder
+
+        json_data = {
+            "memGrade": 1,
+            "categoryCode": "SHTQ",
+            "showCode": "SHTQWNTJ"
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberGoods~mallGoodsLifeService~list'
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True:
+            goodsList = response["obj"][0]["goodsList"]
+            for goods in goodsList:
+                exchangeTimesLimit = goods['exchangeTimesLimit']
+                if exchangeTimesLimit >= 7:
+                    self.goodsNo = goods['goodsNo']
+                    print(f'当前选择券号：{self.goodsNo}')
+                    self.get_coupom()
+                    break
+        else:
+            print(f'>领券失败！原因：{response.get("errorMessage")}')
+
+    def get_honeyTaskListStart(self):
+        print('>>>开始获取采蜜换大礼任务列表')
+        # 任务列表
+        json_data = {}
+        self.headers['channel'] = 'wxwdsj'
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~receiveExchangeIndexService~taskDetail'
+
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True:
+            for item in response["obj"]["list"]:
+                self.taskType = item["taskType"]
+                status = item["status"]
+                if status == 3:
+                    print(f'>【{self.taskType}】-已完成')
+                    if self.taskType == 'BEES_GAME_TASK_TYPE':
+                        self.bee_need_help = False
+                    continue
+                if "taskCode" in item:
+                    self.taskCode = item["taskCode"]
+                    if self.taskType == 'DAILY_VIP_TASK_TYPE':
+                        self.get_coupom_list()
+                    else:
+                        self.do_honeyTask()
+                if self.taskType == 'BEES_GAME_TASK_TYPE':
+                    self.honey_damaoxian()
+                time.sleep(2)
+
+    def honey_damaoxian(self):
+        print('>>>执行大冒险任务')
+        # 大冒险
+        gameNum = 5
+        for i in range(1, gameNum):
+            json_data = {
+                'gatherHoney': 20,
+            }
+            if gameNum < 0: break
+            print(f'>>开始第{i}次大冒险')
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~receiveExchangeGameService~gameReport'
+            response = self.do_request(url, data=json_data)
+            # print(response)
+            stu = response.get('success')
+            if stu:
+                gameNum = response.get('obj')['gameNum']
+                print(f'>大冒险成功！剩余次数【{gameNum}】')
+                time.sleep(2)
+                gameNum -= 1
+            elif response.get("errorMessage") == '容量不足':
+                print(f'> 需要扩容')
+                self.honey_expand()
+            else:
+                print(f'>大冒险失败！【{response.get("errorMessage")}】')
+                break
+
+    def honey_expand(self):
+        print('>>>容器扩容')
+        # 大冒险
+        gameNum = 5
+
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~receiveExchangeIndexService~expand'
+        response = self.do_request(url, data={})
+        # print(response)
+        stu = response.get('success', False)
+        if stu:
+            obj = response.get('obj')
+            print(f'>成功扩容【{obj}】容量')
+        else:
+            print(f'>扩容失败！【{response.get("errorMessage")}】')
+
+    def honey_indexData(self, END=False):
+        if not END: print('\n>>>>>>>开始执行采蜜换大礼任务')
+        # 邀请
+        random_invite = random.choice([invite for invite in inviteId if invite != self.user_id])
+        self.headers['channel'] = 'wxwdsj'
+        json_data = {"inviteUserId": random_invite}
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~receiveExchangeIndexService~indexData'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            usableHoney = response.get('obj').get('usableHoney')
+            if END:
+                Log(f'当前丰蜜：【{usableHoney}】')
+                return
+            Log(f'执行前丰蜜：【{usableHoney}】')
+            taskDetail = response.get('obj').get('taskDetail')
+            activityEndTime = response.get('obj').get('activityEndTime', '')
+            activity_end_time = datetime.strptime(activityEndTime, "%Y-%m-%d %H:%M:%S")
+            current_time = datetime.now()
+
+            if current_time.date() == activity_end_time.date():
+                Log("本期活动今日结束，请及时兑换")
+            else:
+                print(f'本期活动结束时间【{activityEndTime}】')
+
+            if taskDetail != []:
+                for task in taskDetail:
+                    self.taskType = task['type']
+                    self.receive_honeyTask()
+                    time.sleep(2)
+
+    def EAR_END_2023_TaskList(self):
+        print('\n>>>>>>开始年终集卡任务')
+        # 任务列表
+        json_data = {
+            "activityCode": "MIDAUTUMN_2024",
+            "channelType": "MINI_PROGRAM"
+        }
+        self.headers['channel'] = 'xcx23nz'
+        self.headers['platform'] = 'MINI_PROGRAM'
+        self.headers['syscode'] = 'MCS-MIMP-CORE'
+
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~activityTaskService~taskList'
+
+        response = self.do_request(url, data=json_data)
+        # print(response)
+        if response.get('success') == True:
+            for item in response["obj"]:
+                self.title = item["taskName"]
+                self.taskType = item["taskType"]
+                status = item["status"]
+                if status == 3:
+                    print(f'>【{self.taskType}】-已完成')
+                    continue
+                if self.taskType == 'INTEGRAL_EXCHANGE':
+                    self.EAR_END_2023_ExchangeCard()
+                elif self.taskType == 'CLICK_MY_SETTING':
+                    self.taskCode = item["taskCode"]
+                    self.addDeliverPrefer()
+                if "taskCode" in item:
+                    self.taskCode = item["taskCode"]
+                    self.doTask()
+                    time.sleep(3)
+                    self.EAR_END_2023_receiveTask()
+                else:
+                    print(f'暂时不支持【{self.title}】任务')
+                # if self.taskType == 'BEES_GAME_TASK_TYPE':
+                #     self.honey_damaoxian()
+        self.EAR_END_2023_getAward()
+        self.EAR_END_2023_GuessIdiom()
+
+    def addDeliverPrefer(self):
+        print(f'>>>开始【{self.title}】任务')
+        json_data = {
+            "country": "中国",
+            "countryCode": "A000086000",
+            "province": "北京市",
+            "provinceCode": "A110000000",
+            "city": "北京市",
+            "cityCode": "A111000000",
+            "county": "东城区",
+            "countyCode": "A110101000",
+            "address": "1号楼1单元101",
+            "latitude": "",
+            "longitude": "",
+            "memberId": "",
+            "locationCode": "010",
+            "zoneCode": "CN",
+            "postCode": "",
+            "takeWay": "7",
+            "callBeforeDelivery": 'false',
+            "deliverTag": "2,3,4,1",
+            "deliverTagContent": "",
+            "startDeliverTime": "",
+            "selectCollection": 'false',
+            "serviceName": "",
+            "serviceCode": "",
+            "serviceType": "",
+            "serviceAddress": "",
+            "serviceDistance": "",
+            "serviceTime": "",
+            "serviceTelephone": "",
+            "channelCode": "RW11111",
+            "taskId": self.taskId,
+            "extJson": "{\"noDeliverDetail\":[]}"
+        }
+        url = 'https://ucmp.sf-express.com/cx-wechat-member/member/deliveryPreference/addDeliverPrefer'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print('新增一个收件偏好，成功')
+        else:
+            print(f'>【{self.title}】任务-{response.get("errorMessage")}')
+
+    def EAR_END_2023_ExchangeCard(self):
+        print(f'>>>开始积分兑换年卡')
+        json_data = {
+            "exchangeNum": 2,
+            "activityCode": "YEAR_END_2023",
+            "channelType": "MINI_PROGRAM"
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonNoLoginPost/~memberNonactivity~yearEnd2023TaskService~integralExchange'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            receivedAccountList = response['obj']['receivedAccountList']
+            for card in receivedAccountList:
+                print(f'>获得：【{card["urrency"]}】卡【{card["amount"]}】张！')
+        else:
+            print(f'>【{self.title}】任务-{response.get("errorMessage")}')
+
+    def EAR_END_2023_getAward(self):
+        print(f'>>>开始抽卡')
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~yearEnd2023GardenPartyService~getAward'
+        for l in range(10):
+            for i in range(0, 3):
+                json_data = {
+                    "cardType": i
+                }
+                response = self.do_request(url, data=json_data)
+                # print(response)
+                if response.get('success') == True:
+                    receivedAccountList = response['obj']['receivedAccountList']
+                    for card in receivedAccountList:
+                        print(f'>获得：【{card["currency"]}】卡【{card["amount"]}】张！')
+                elif response.get('errorMessage') == '达到限流阈值，请稍后重试':
+                    break
+                elif response.get('errorMessage') == '用户信息失效，请退出重新进入':
+                    break
+                else:
+                    print(f'>抽卡失败：{response.get("errorMessage")}')
+                time.sleep(3)
+
+    def EAR_END_2023_GuessIdiom(self):
+        print(f'>>>开始猜成语')
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~yearEnd2023GuessIdiomService~win'
+        for i in range(1, 11):
+            json_data = {
+                "index": i
+            }
+            response = self.do_request(url, data=json_data)
+            if response.get('success') == True:
+                print(f'第{i}关成功！')
+                # receivedAccountList = response['obj']['receivedAccountList']
+                # for card in receivedAccountList:
+                #     print(f'>获得：【{card["urrency"]}】卡【{card["amount"]}】张！')
+            else:
+                print(f'第{i}关失败！')
+
+    def EAR_END_2023_receiveTask(self):
+        print(f'>>>开始领取【{self.title}】任务奖励')
+        json_data = {
+            "taskType": self.taskType,
+            "activityCode": "YEAR_END_2023",
+            "channelType": "MINI_PROGRAM"
+        }
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonNoLoginPost/~memberNonactivity~yearEnd2023TaskService~fetchMixTaskReward'
+        response = self.do_request(url, data=json_data)
+        if response.get('success') == True:
+            print(f'>【{self.title}】任务奖励领取成功！')
+        else:
+            print(f'>【{self.title}】任务-{response.get("errorMessage")}')
+
+    def anniversary2024_weekly_gift_status(self):
+        print(f'\n>>>>>>>开始周年庆任务')
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024IndexService~weeklyGiftStatus'
+        response = self.do_request(url)
+        if response.get('success') == True:
+            weekly_gift_list = response.get('obj', {}).get('weeklyGiftList', [])
+            for weekly_gift in weekly_gift_list:
+                if not weekly_gift.get('received'):
+                    receive_start_time = datetime.strptime(weekly_gift['receiveStartTime'], '%Y-%m-%d %H:%M:%S')
+                    receive_end_time = datetime.strptime(weekly_gift['receiveEndTime'], '%Y-%m-%d %H:%M:%S')
+                    current_time = datetime.now()
+                    # print(current_time)
+                    # print(receive_start_time)
+                    # print(receive_end_time)
+                    if receive_start_time <= current_time <= receive_end_time:
+                        self.anniversary2024_receive_weekly_gift()
+        else:
+            error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+            print(f'查询每周领券失败: {error_message}')
+            if '系统繁忙' in error_message or '用户手机号校验未通过' in error_message:
+                self.anniversary_black = True
+
+    def anniversary2024_receive_weekly_gift(self):
+        print(f'>>>开始领取每周领券')
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024IndexService~receiveWeeklyGift'
+        response = self.do_request(url)
+        if response.get('success'):
+            product_names = [product['productName'] for product in response.get('obj', [])]
+            print(f'每周领券: {product_names}')
+        else:
+            error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+            print(f'每周领券失败: {error_message}')
+            if '系统繁忙' in error_message or '用户手机号校验未通过' in error_message:
+                self.anniversary_black = True
+
+    def anniversary2024_taskList(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~activityTaskService~taskList'
+        data = {
+            'activityCode': 'ANNIVERSARY_2024',
+            'channelType': 'MINI_PROGRAM'
+        }
+        response = self.do_request(url, data)
+        if response and response.get('success'):
+            tasks = response.get('obj', [])
+            # 过滤出状态为1的任务并尝试接收奖励
+            for task in filter(lambda x: x['status'] == 1, tasks):
+                if self.anniversary_black:
+                    return
+                for _ in range(task['canReceiveTokenNum']):
+                    self.anniversary2024_fetchMixTaskReward(task)
+            # 过滤出状态为2的任务并完成任务
+            for task in filter(lambda x: x['status'] == 2, tasks):
+                if self.anniversary_black:
+                    return
+                if task['taskType'] in ['PLAY_ACTIVITY_GAME', 'PLAY_HAPPY_ELIMINATION', 'PARTAKE_SUBJECT_GAME']:
+                    pass
+                elif task['taskType'] == 'FOLLOW_SFZHUNONG_VEDIO_ID':
+                    pass
+                elif task['taskType'] in ['BROWSE_VIP_CENTER', 'GUESS_GAME_TIP', 'CREATE_SFID', 'CLICK_MY_SETTING',
+                                          'CLICK_TEMPLATE', 'REAL_NAME', 'SEND_SUCCESS_RECALL', 'OPEN_SVIP',
+                                          'OPEN_FAST_CARD', 'FIRST_CHARGE_NEW_EXPRESS_CARD', 'CHARGE_NEW_EXPRESS_CARD',
+                                          'INTEGRAL_EXCHANGE']:
+                    pass
+                else:
+                    for _ in range(task['restFinishTime']):
+                        if self.anniversary_black:
+                            break
+                        self.anniversary2024_finishTask(task)
+
+    def anniversary2024_finishTask(self, task):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonRoutePost/memberEs/taskRecord/finishTask'
+        data = {'taskCode': task['taskCode']}
+        response = self.do_request(url, data)
+        if response and response.get('success'):
+            print('完成任务[%s]成功' % task['taskName'])
+            # 完成任务后获取任务奖励的逻辑
+            self.anniversary2024_fetchMixTaskReward(task)
+        else:
+            print('完成任务[%s]失败: %s' % (
+                task['taskName'], response.get('errorMessage') or (json.dumps(response) if response else '无返回')))
+
+    def anniversary2024_fetchMixTaskReward(self, task):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024TaskService~fetchMixTaskReward'
+        data = {
+            'taskType': task['taskType'],
+            'activityCode': 'ANNIVERSARY_2024',
+            'channelType': 'MINI_PROGRAM'
+        }
+        response = self.do_request(url, data)
+        if response and response.get('success'):
+            reward_info = response.get('obj', {}).get('account', {})
+            received_list = [f"[{item['currency']}]X{item['amount']}" for item in
+                             reward_info.get('receivedAccountList', [])]
+            turned_award = reward_info.get('turnedAward', {})
+            if turned_award.get('productName'):
+                received_list.append(f"[优惠券]{turned_award['productName']}")
+            print('领取任务[%s]奖励: %s' % (task['taskName'], ', '.join(received_list)))
+        else:
+            error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+            print('领取任务[%s]奖励失败: %s' % (task['taskName'], error_message))
+            if '用户手机号校验未通过' in error_message:
+                self.anniversary_black = True
+
+    def anniversary2024_unbox(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024CardService~unbox'
+        response = self.do_request(url, {})
+        if response and response.get('success'):
+            account_info = response.get('obj', {}).get('account', {})
+            unbox_list = [f"[{item['currency']}]X{item['amount']}" for item in
+                          account_info.get('receivedAccountList', [])]
+            print('拆盒子: %s' % ', '.join(unbox_list) or '空气')
+        else:
+            error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+            print('拆盒子失败: %s' % error_message)
+            if '用户手机号校验未通过' in error_message:
+                self.anniversary_black = True
+
+    def anniversary2024_game_list(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024GameParkService~list'
+        response = self.do_request(url, {})
+        try:
+            if response['success']:
+                topic_pk_info = response['obj'].get('topicPKInfo', {})
+                search_word_info = response['obj'].get('searchWordInfo', {})
+                happy_elimination_info = response['obj'].get('happyEliminationInfo', {})
+
+                if not topic_pk_info.get('isPassFlag'):
+                    print('开始话题PK赛')
+                    # 这里调用话题PK赛列表相关函数
+                    self.anniversary2024_TopicPk_topicList()
+
+                if not search_word_info.get('isPassFlag') or not search_word_info.get('isFinishDailyFlag'):
+                    print('开始找字游戏')
+                    for i in range(1, 11):
+                        wait_time = random.randint(1000, 3000) / 1000.0  # 转换为秒
+                        time.sleep(wait_time)
+                        if not self.anniversary2024_SearchWord_win(i):
+                            break
+
+                if not happy_elimination_info.get('isPassFlag') or not happy_elimination_info.get('isFinishDailyFlag'):
+                    print('开始消消乐')
+                    for i in range(1, 31):
+                        wait_time = random.randint(2000, 4000) / 1000.0  # 转换为秒
+                        time.sleep(wait_time)
+                        if not self.anniversary2024_HappyElimination_win(i):
+                            break
+            else:
+                error_message = response['errorMessage'] or json.dumps(response) or '无返回'
+                print('查询游戏状态失败: ' + error_message)
+                if '用户手机号校验未通过' in error_message:
+                    self.anniversary_black = True
+        except Exception as e:
+            print(str(e))
+
+    def anniversary2024_SearchWord_win(self, index):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024SearchWordService~win'
+        success = True
+        try:
+            data = {'index': index}
+            response = self.do_request(url, data)
+            if response and response.get('success'):
+                currency_list = response.get('obj', {}).get('currencyDTOList', [])
+                rewards = ', '.join([f"[{c.get('currency')}]X{c.get('amount')}" for c in currency_list])
+                print(f'找字游戏第{index}关通关成功: {rewards if rewards else "未获得奖励"}')
+            else:
+                error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+                print(f'找字游戏第{index}关失败: {error_message}')
+                if '系统繁忙' in error_message:
+                    success = False
+        except Exception as e:
+            print(e)
+        finally:
+            return success
+
+    def anniversary2024_HappyElimination_win(self, index):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024HappyEliminationService~win'
+        success = True
+        data = {'index': index}
+        response = self.do_request(url, data)
+        try:
+            if response and response.get('success'):
+                is_award = response['obj'].get('isAward')
+                currency_dto_list = response['obj'].get('currencyDTOList', [])
+                rewards = ', '.join([f"[{c.get('currency')}]X{c.get('amount')}" for c in currency_dto_list])
+                print(f'第{index}关通关: {rewards if rewards else "未获得奖励"}')
+            else:
+                error_message = response.get('errorMessage') or json.dumps(response) or '无返回'
+                print(f'第{index}关失败: {error_message}')
+                if '系统繁忙' in error_message:
+                    success = False
+        except Exception as e:
+            print(e)
+            success = False
+        finally:
+            return success
+
+    def anniversary2024_TopicPk_chooseSide(self, index):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024TopicPkService~chooseSide'
+        success = True
+        data = {'index': index, 'choose': 0}  # 选择某一边
+        response = self.do_request(url, data)
+        try:
+            if response and response.get('success'):
+                currency_dto_list = response['obj'].get('currencyDTOList', [])
+                rewards = ', '.join([f"[{c.get('currency')}]X{c.get('amount')}" for c in currency_dto_list])
+                print(f'话题PK赛选择话题{index}成功： {rewards if rewards else "未获得奖励"}')
+            else:
+                error_message = response['errorMessage'] or json.dumps(response) or '无返回'
+                print(f'话题PK赛选择话题{index}失败： {error_message}')
+                if '系统繁忙' in error_message:
+                    success = False
+        except Exception as e:
+            print(e)
+            success = False
+        finally:
+            return success
+
+    def anniversary2024_TopicPk_topicList(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024TopicPkService~topicList'
+        response = self.do_request(url, {})
+        try:
+            if response and response.get('success'):
+                topics = response['obj'].get('topics', [])
+                for topic in topics:
+                    if not topic.get('choose'):
+                        index = topic.get('index', 1)
+                        wait_time = random.randint(2000, 4000) / 1000.0  # 转换为秒
+                        time.sleep(wait_time)  # 等待
+                        if not self.anniversary2024_TopicPk_chooseSide(index):
+                            break
+            else:
+                error_message = response['errorMessage'] or json.dumps(response) or '无返回'
+                print(f'查询话题PK赛记录失败： {error_message}')
+        except Exception as e:
+            print(e)
+
+    def anniversary2024_queryAccountStatus_refresh(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024CardService~queryAccountStatus'
+        response = self.do_request(url, {})
+        try:
+            if not response or not response.get('success'):
+                error_message = response['errorMessage'] or json.dumps(response) or '无返回'
+                print(f'查询账户状态失败： {error_message}')
+        except Exception as e:
+            print(e)
+
+    def anniversary2024_TopicPk_chooseSide(self, index):
+        success = True
+        data = {
+            'index': index,
+            'choose': 0
+        }
+        self.headers['channel'] = '31annizyw'
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024TopicPkService~chooseSide'
+        result = self.do_request(url, data, 'post')
+
+        if result and result.get('success'):
+            currency_dto_list = result.get('obj', {}).get('currencyDTOList', [])
+            if currency_dto_list:
+                rewards = [f"[{currency['currency']}]{currency['amount']}次" for currency in currency_dto_list]
+                print(f'话题PK赛第{index}个话题选择成功: {", ".join(rewards)}')
+            else:
+                print(f'话题PK赛第{index}个话题选择成功')
+        else:
+            error_message = result.get('errorMessage') if result else '无返回'
+            print(f'话题PK赛第{index}个话题失败: {error_message}')
+            if error_message and '系统繁忙' in error_message:
+                success = False
+
+        return success
+
+    def anniversary2024_titleList(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024GuessService~titleList'
+        response = self.do_request(url)
+
+        if response and response.get('success'):
+
+            guess_title_info_list = response.get('obj', {}).get('guessTitleInfoList', [])
+            today_titles = [title for title in guess_title_info_list if title['gameDate'] == self.today]
+            for title_info in today_titles:
+                if title_info['answerStatus']:
+                    print('今日已回答过竞猜')
+                else:
+                    answer = self.answer
+                    if answer:
+                        self.anniversary2024_answer(title_info, answer)
+                        print(f'进行了答题: {answer}')
+        else:
+            error_message = response.get('errorMessage') if response else '无返回'
+            print(f'查询每日口令竞猜失败: {error_message}')
+
+    def anniversary2024_titleList_award(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024GuessService~titleList'
+        response = self.do_request(url)
+
+        if response and response.get('success'):
+
+            guess_title_info_list = response.get('obj', {}).get('guessTitleInfoList', [])
+            today_awards = [title for title in guess_title_info_list if title['gameDate'] == self.today]
+
+            for award_info in today_awards:
+                if award_info['answerStatus']:
+                    awards = award_info.get('awardList', []) + award_info.get('puzzleList', [])
+                    awards_description = ', '.join([f"{award['productName']}" for award in awards])
+                    print(f'口令竞猜奖励: {awards_description}' if awards_description else '今日无奖励')
+                else:
+                    print('今日还没回答竞猜')
+        else:
+            error_message = response.get('errorMessage') if response else '无返回'
+            print(f'查询每日口令竞猜奖励失败: {error_message}')
+
+    # 向API发送答题请求
+    def anniversary2024_answer(self, answer_info):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024GuessService~answer'
+        data = {'period': answer_info['period'], 'answerInfo': answer_info}
+        response = self.do_request(url, data)
+        if response and response.get('success'):
+            print('口令竞猜回答成功')
+            self.anniversary2024_titleList_award()  # 通过奖励接口验证答案
+        else:
+            error_message = response.get('errorMessage') if response else '无返回'
+            print(f'口令竞猜回答失败: {error_message}')
+
+    # 查询账户状态
+    def anniversary2024_queryAccountStatus(self):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024CardService~queryAccountStatus'
+        result = self.do_request(url)
+        if result.get('success'):
+            account_currency_list = result.get('obj', {}).get('accountCurrencyList', [])
+            unbox_chance_currency = [currency for currency in account_currency_list if
+                                     currency.get('currency') == 'UNBOX_CHANCE']
+            unbox_chance_balance = unbox_chance_currency[0].get('balance') if unbox_chance_currency else 0
+
+            # print('可以拆' + str(unbox_chance_balance) + '次盒子')
+            # while unbox_chance_balance > 0:
+            #     self.anniversary2024_unbox()
+            #     unbox_chance_balance -= 1
+        else:
+            error_message = result.get('errorMessage') or json.dumps(result) or '无返回'
+            print('查询已收集拼图失败: ' + error_message)
+
+        result = self.do_request(url)
+        if result.get('success'):
+            account_currency_list = result.get('obj', {}).get('accountCurrencyList', [])
+            account_currency_list = [currency for currency in account_currency_list if
+                                     currency.get('currency') != 'UNBOX_CHANCE']
+            if account_currency_list:
+                cards_li = account_currency_list
+                card_info = []
+                self.cards = {
+                    'CARD_1': 0,
+                    'CARD_2': 0,
+                    'CARD_3': 0,
+                    'CARD_4': 0,
+                    'CARD_5': 0,
+                    'CARD_6': 0,
+                    'CARD_7': 0,
+                    'CARD_8': 0,
+                    'CARD_9': 0,
+                    'COMMON_CARD': 0
+                }
+                for card in cards_li:
+                    currency_key = card.get('currency')
+                    if currency_key in self.cards:
+                        self.cards[currency_key] = int(card.get('balance'))
+                    card_info.append('[' + card.get('currency') + ']X' + str(card.get('balance')))
+
+                Log(f'已收集拼图: {card_info}')
+                cards_li.sort(key=lambda x: x.get('balance'), reverse=True)
+
+            else:
+                print('还没有收集到拼图')
+        else:
+            error_message = result.get('errorMessage') or json.dumps(result) or '无返回'
+            print('查询已收集拼图失败: ' + error_message)
+
+    def do_draw(self, cards):
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~anniversary2024CardService~collectDrawAward'
+        data = {"accountList": cards}
+        response = self.do_request(url, data)
+        if response and response.get('success'):
+            data = response.get('obj', {})
+            productName = data.get('productName', '')
+            Log(f'抽奖成功,获得{productName}')
+            return True
+        else:
+            error_message = response.get('errorMessage') if response else '无返回'
+            print(f'抽奖失败: {error_message}')
+            return False
+
+    def convert_common_card(self, cards, target_card):
+        # 如果共通卡(COMMON_CARD)的数量大于0，转化成目标卡
+        if cards['COMMON_CARD'] > 0:
+            cards['COMMON_CARD'] -= 1
+            cards[target_card] += 1
+            return True
+        return False
+
+    def can_draw(self, cards, n):
+        # 判断是否有足够的不同卡进行抽奖
+        distinct_cards = sum(1 for card, amount in cards.items() if card != 'COMMON_CARD' and amount > 0)
+        return distinct_cards >= n
+
+    def draw(self, cards, n):
+        drawn_cards = []
+        for card, amount in sorted(cards.items(), key=lambda item: item[1]):
+            if card != 'COMMON_CARD' and amount > 0:
+                cards[card] -= 1
+                drawn_cards.append(card)
+                if len(drawn_cards) == n:
+                    break
+        if len(drawn_cards) == n:
+            "没有足够的卡进行抽奖"
+        if self.do_draw(drawn_cards):
+            return drawn_cards  # 返回本次抽奖使用的卡
+        else:
+            return None
+
+    def simulate_lottery(self, cards):
+        while self.can_draw(cards, 9):
+            used_cards = self.draw(cards, 9)
+            print("进行了一次9卡抽奖，消耗卡片: ", used_cards)
+        while self.can_draw(cards, 7) or self.convert_common_card(cards, 'CARD_1'):
+            if not self.can_draw(cards, 7):
+                continue
+            used_cards = self.draw(cards, 7)
+            print("进行了一次7卡抽奖，消耗卡片: ", used_cards)
+        while self.can_draw(cards, 5) or self.convert_common_card(cards, 'CARD_1'):
+            if not self.can_draw(cards, 5):
+                continue
+            used_cards = self.draw(cards, 5)
+            print("进行了一次5卡抽奖，消耗卡片: ", used_cards)
+        while self.can_draw(cards, 3) or self.convert_common_card(cards, 'CARD_1'):
+            if not self.can_draw(cards, 3):
+                continue
+            used_cards = self.draw(cards, 3)
+            print("进行了一次3卡抽奖，消耗卡片: ", used_cards)
+
+    def anniversary2024_task(self):
+        self.anniversary2024_weekly_gift_status()
+        if self.anniversary_black:
+            return
+        # self.anniversary2024_titleList()
+        # self.anniversary2024_game_list()
+        # self.anniversary2024_taskList()
+        self.anniversary2024_queryAccountStatus()
+        target_time = datetime(2024, 4, 3, 14, 0)
+        # self.simulate_lottery(self.cards)
+        if datetime.now() > target_time:
+            print('周年庆活动即将结束，开始自动抽奖')
+            self.simulate_lottery(self.cards)
+        else:
+            print('未到自动抽奖时间')
+
+    def member_day_index(self):
+        print('====== 会员日活动 ======')
+        try:
+            invite_user_id = random.choice([invite for invite in inviteId if invite != self.user_id])
+            payload = {'inviteUserId': invite_user_id}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayIndexService~index'
+
+            response = self.do_request(url, data=payload)
+            if response.get('success'):
+                lottery_num = response.get('obj', {}).get('lotteryNum', 0)
+                can_receive_invite_award = response.get('obj', {}).get('canReceiveInviteAward', False)
+                if can_receive_invite_award:
+                    self.member_day_receive_invite_award(invite_user_id)
+                self.member_day_red_packet_status()
+                Log(f'会员日可以抽奖{lottery_num}次')
+                for _ in range(lottery_num):
+                    self.member_day_lottery()
+                if self.member_day_black:
+                    return
+                self.member_day_task_list()
+                if self.member_day_black:
+                    return
+                self.member_day_red_packet_status()
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log(f'查询会员日失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_receive_invite_award(self, invite_user_id):
+        try:
+            payload = {'inviteUserId': invite_user_id}
+
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayIndexService~receiveInviteAward'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                product_name = response.get('obj', {}).get('productName', '空气')
+                Log(f'会员日奖励: {product_name}')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log(f'领取会员日奖励失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_lottery(self):
+        try:
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayLotteryService~lottery'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                product_name = response.get('obj', {}).get('productName', '空气')
+                Log(f'会员日抽奖: {product_name}')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log(f'会员日抽奖失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_task_list(self):
+        try:
+            payload = {'activityCode': 'MEMBER_DAY', 'channelType': 'MINI_PROGRAM'}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~activityTaskService~taskList'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                task_list = response.get('obj', [])
+                for task in task_list:
+                    if task['status'] == 1:
+                        if self.member_day_black:
+                            return
+                        self.member_day_fetch_mix_task_reward(task)
+                for task in task_list:
+                    if task['status'] == 2:
+                        if self.member_day_black:
+                            return
+                        if task['taskType'] in ['SEND_SUCCESS', 'INVITEFRIENDS_PARTAKE_ACTIVITY', 'OPEN_SVIP',
+                                                'OPEN_NEW_EXPRESS_CARD', 'OPEN_FAMILY_CARD', 'CHARGE_NEW_EXPRESS_CARD',
+                                                'INTEGRAL_EXCHANGE']:
+                            pass
+                        else:
+                            for _ in range(task['restFinishTime']):
+                                if self.member_day_black:
+                                    return
+                                self.member_day_finish_task(task)
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log('查询会员日任务失败: ' + error_message)
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_finish_task(self, task):
+        try:
+            payload = {'taskCode': task['taskCode']}
+
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberEs~taskRecord~finishTask'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                Log('完成会员日任务[' + task['taskName'] + ']成功')
+                self.member_day_fetch_mix_task_reward(task)
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log('完成会员日任务[' + task['taskName'] + ']失败: ' + error_message)
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_fetch_mix_task_reward(self, task):
+        try:
+            payload = {'taskType': task['taskType'], 'activityCode': 'MEMBER_DAY', 'channelType': 'MINI_PROGRAM'}
+
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~activityTaskService~fetchMixTaskReward'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                Log('领取会员日任务[' + task['taskName'] + ']奖励成功')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log('领取会员日任务[' + task['taskName'] + ']奖励失败: ' + error_message)
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_receive_red_packet(self, hour):
+        try:
+            payload = {'receiveHour': hour}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayTaskService~receiveRedPacket'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                print(f'会员日领取{hour}点红包成功')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                print(f'会员日领取{hour}点红包失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_red_packet_status(self):
+        try:
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayPacketService~redPacketStatus'
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                packet_list = response.get('obj', {}).get('packetList', [])
+                for packet in packet_list:
+                    self.member_day_red_packet_map[packet['level']] = packet['count']
+
+                for level in range(1, self.max_level):
+                    count = self.member_day_red_packet_map.get(level, 0)
+                    while count >= 2:
+                        self.member_day_red_packet_merge(level)
+                        count -= 2
+                packet_summary = []
+                remaining_needed = 0
+
+                for level, count in self.member_day_red_packet_map.items():
+                    if count == 0:
+                        continue
+                    packet_summary.append(f"[{level}级]X{count}")
+                    int_level = int(level)
+                    if int_level < self.max_level:
+                        remaining_needed += 1 << (int_level - 1)
+
+                Log("会员日合成列表: " + ", ".join(packet_summary))
+
+                if self.member_day_red_packet_map.get(self.max_level):
+                    Log(f"会员日已拥有[{self.max_level}级]红包X{self.member_day_red_packet_map[self.max_level]}")
+                    self.member_day_red_packet_draw(self.max_level)
+                else:
+                    remaining = self.packet_threshold - remaining_needed
+                    Log(f"会员日距离[{self.max_level}级]红包还差: [1级]红包X{remaining}")
+
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log(f'查询会员日合成失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_red_packet_merge(self, level):
+        try:
+            # for key,level in enumerate(self.member_day_red_packet_map):
+            #     pass
+            payload = {'level': level, 'num': 2}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayPacketService~redPacketMerge'
+
+            response = self.do_request(url, payload)
+            if response.get('success'):
+                Log(f'会员日合成: [{level}级]红包X2 -> [{level + 1}级]红包')
+                self.member_day_red_packet_map[level] -= 2
+                if not self.member_day_red_packet_map.get(level + 1):
+                    self.member_day_red_packet_map[level + 1] = 0
+                self.member_day_red_packet_map[level + 1] += 1
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                Log(f'会员日合成两个[{level}级]红包失败: {error_message}')
+                if '没有资格参与活动' in error_message:
+                    self.member_day_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def member_day_red_packet_draw(self, level):
+        try:
+            payload = {'level': str(level)}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~memberDayPacketService~redPacketDraw'
+            response = self.do_request(url, payload)
+            if response and response.get('success'):
+                coupon_names = [item['couponName'] for item in response.get('obj', [])] or []
+
+                Log(f"会员日提取[{level}级]红包: {', '.join(coupon_names) or '空气'}")
+            else:
+                error_message = response.get('errorMessage') if response else "无返回"
+                Log(f"会员日提取[{level}级]红包失败: {error_message}")
+                if "没有资格参与活动" in error_message:
+                    self.memberDay_black = True
+                    print("会员日任务风控")
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_index(self):
+        print('====== 查询月饼活动状态 ======')
+        invite_user_id = random.choice([invite for invite in inviteId if invite != self.user_id])
+        try:
+            self.headers['channel'] = 'newExpressWX'
+            self.headers[
+                'referer'] = f'https://mcs-mimp-web.sf-express.com/origin/a/mimp-activity/dragonBoat2024?mobile={self.mobile}&userId={self.user_id}&path=/origin/a/mimp-activity/dragonBoat2024&supportShare=&inviteUserId={invite_user_id}&from=newExpressWX'
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonNoLoginPost/~memberNonactivity~midAutumn2024IndexService~index'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                acEndTime = obj.get('acEndTime', '')
+                # 获取当前时间并格式化
+                current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                comparison_time = datetime.strptime(acEndTime, "%Y-%m-%d %H:%M:%S")
+                # 比较当前时间是否小于比较时间
+                is_less_than = datetime.now() < comparison_time
+                if is_less_than:
+                    print('月饼游动进行中....')
+                    return True
+                else:
+                    print('月饼活动已结束')
+                    return False
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+                return False
+        except Exception as e:
+            print(e)
+            return False
+
+    def DRAGONBOAT_2024_Game_indexInfo(self):
+        Log('====== 开始划月饼游戏 ======')
+        try:
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~dragonBoat2024GameService~indexInfo'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                maxPassLevel = obj.get('maxPassLevel', '')
+                ifPassAllLevel = obj.get('ifPassAllLevel', '')
+                if maxPassLevel != 30:
+                    self.DRAGONBOAT_2024_win(maxPassLevel)
+                else:
+                    self.DRAGONBOAT_2024_win(0)
+
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+                return False
+        except Exception as e:
+            print(e)
+            return False
+
+    def DRAGONBOAT_2024_Game_init(self):
+        Log('====== 开始划月饼游戏 ======')
+        try:
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~dragonBoat2024GameService~init'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                currentIndex = obj.get('currentIndex', '')
+                ifPassAllLevel = obj.get('ifPassAllLevel', '')
+                if currentIndex != 30:
+                    self.DRAGONBOAT_2024_win(currentIndex)
+                else:
+                    self.DRAGONBOAT_2024_win(0)
+
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+                return False
+        except Exception as e:
+            print(e)
+            return False
+
+    def DRAGONBOAT_2024_weeklyGiftStatus(self):
+        print('====== 查询每周礼包领取状态 ======')
+        try:
+            payload = {}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~dragonBoat2024IndexService~weeklyGiftStatus'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                for gift in obj:
+                    received = gift['received']
+                    receiveStartTime = gift['receiveStartTime']
+                    receiveEndTime = gift['receiveEndTime']
+                    print(f'>>> 领取时间：【{receiveStartTime} 至 {receiveEndTime}】')
+                    if received:
+                        print('> 该礼包已领取')
+                        continue
+                    receive_start_time = datetime.strptime(receiveStartTime, "%Y-%m-%d %H:%M:%S")
+                    receive_end_time = datetime.strptime(receiveEndTime, "%Y-%m-%d %H:%M:%S")
+                    is_within_range = receive_start_time <= datetime.now() <= receive_end_time
+                    if is_within_range:
+                        print(f'>> 开始领取礼包：')
+                        self.DRAGONBOAT_2024_receiveWeeklyGift()
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_receiveWeeklyGift(self):
+        invite_user_id = random.choice([invite for invite in inviteId if invite != self.user_id])
+        try:
+            payload = {"inviteUserId": invite_user_id}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~dragonBoat2024IndexService~receiveWeeklyGift'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                if obj == [{}]:
+                    print('> 领取失败')
+                    return False
+                for gifts in obj:
+                    productName = gifts['productName']
+                    amount = gifts['amount']
+                    print(f'> 领取【{productName} x {amount}】成功')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_taskList(self):
+        print('====== 查询推币任务列表 ======')
+        try:
+            payload = {
+                "activityCode": "MIDAUTUMN_2024",
+                "channelType": "MINI_PROGRAM"
+            }
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~activityTaskService~taskList'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                for task in obj:
+                    taskType = task['taskType']
+                    self.taskName = task['taskName']
+                    status = task['status']
+                    if status == 3:
+                        Log(f'> 任务【{self.taskName}】已完成')
+                        continue
+                    self.taskCode = task.get('taskCode', None)
+                    if self.taskCode:
+                        self.DRAGONBOAT_2024_finishTask()
+                    if taskType == 'PLAY_ACTIVITY_GAME':
+                        self.DRAGONBOAT_2024_Game_init()
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_coinStatus(self, END=False):
+        Log('====== 查询金币信息 ======')
+        # try:
+        payload = {}
+        url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~midAutumn2024CoinService~coinStatus'
+
+        response = self.do_request(url, payload)
+        # print(response)
+        if response.get('success'):
+            obj = response.get('obj', None)
+            if obj == None: return False
+            accountCurrencyList = obj.get('accountCurrencyList', [])
+            pushedTimesToday = obj.get('pushedTimesToday', '')
+            pushedTimesTotal = obj.get('pushedTimesTotal', '')
+            PUSH_TIMES_balance = 0
+            self.COIN_balance = 0
+            WELFARE_CARD_balance = 0
+            for li in accountCurrencyList:
+                if li['currency'] == 'PUSH_TIMES':
+                    PUSH_TIMES_balance = li['balance']
+                if li['currency'] == 'COIN':
+                    self.COIN_balance = li['balance']
+                if li['currency'] == 'WELFARE_CARD':
+                    WELFARE_CARD_balance = li['balance']
+
+            PUSH_TIMES = PUSH_TIMES_balance
+            if END:
+                if PUSH_TIMES_balance > 0:
+                    for i in range(PUSH_TIMES_balance):
+                        print(f'>> 开始第【{PUSH_TIMES_balance + 1}】次推币')
+                        self.DRAGONBOAT_2024_pushCoin()
+                        PUSH_TIMES -= 1
+                        pushedTimesToday += 1
+                        pushedTimesTotal += 1
+                Log(f'> 剩余推币次数：【{PUSH_TIMES}】')
+                Log(f'> 当前金币：【{self.COIN_balance}】')
+                # Log(f'> 当前发财卡：【{WELFARE_CARD_balance}】')
+                Log(f'> 今日推币：【{pushedTimesToday}】次')
+                Log(f'> 总推币：【{pushedTimesTotal}】次')
+            else:
+                print(f'> 剩余推币次数：【{PUSH_TIMES_balance}】')
+                print(f'> 当前金币：【{self.COIN_balance}】')
+                # Log(f'> 当前发财卡：【{WELFARE_CARD_balance}】')
+                print(f'> 今日推币：【{pushedTimesToday}】次')
+                print(f'> 总推币：【{pushedTimesTotal}】次')
+
+            self.DRAGONBOAT_2024_givePushTimes()
+        else:
+            error_message = response.get('errorMessage', '无返回')
+            if '没有资格参与活动' in error_message:
+                self.DRAGONBOAT_2024_black = True
+                Log('会员日任务风控')
+        # except Exception as e:
+        #     print(e)
+
+    def DRAGONBOAT_2024_pushCoin(self):
+        try:
+            payload = {"plateToken": None}
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~midAutumn2024CoinService~pushCoin'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', [{}])
+                drawAward = obj.get('drawAward', '')
+                self.COIN_balance += drawAward
+                print(f'> 获得：【{drawAward}】金币')
+
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_givePushTimes(self):
+        Log('====== 领取赠送推币次数 ======')
+        try:
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~midAutumn2024CoinService~givePushTimes'
+
+            response = self.do_request(url)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', 0)
+                print(f'> 获得：【{obj}】次推币机会')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('> 会员日任务风控')
+                print(error_message)
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_finishTask(self):
+        try:
+            payload = {
+                "taskCode": self.taskCode
+            }
+            url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberEs~taskRecord~finishTask'
+
+            response = self.do_request(url, payload)
+            # print(response)
+            if response.get('success'):
+                obj = response.get('obj', False)
+                Log(f'> 完成任务【{self.taskName}】成功')
+            else:
+                error_message = response.get('errorMessage', '无返回')
+                if '没有资格参与活动' in error_message:
+                    self.DRAGONBOAT_2024_black = True
+                    Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def DRAGONBOAT_2024_win(self, level):
+        try:
+            for i in range(level, 31):
+                print(f'开始第【{i}】关')
+                payload = {"levelIndex": i}
+                url = 'https://mcs-mimp-web.sf-express.com/mcs-mimp/commonPost/~memberNonactivity~dragonBoat2024GameService~win'
+
+                response = self.do_request(url, payload)
+                # print(response)
+                if response.get('success'):
+                    obj = response.get('obj', [{}])
+                    currentAwardList = obj.get('currentAwardList', [])
+                    if currentAwardList != []:
+                        for award in currentAwardList:
+                            currency = award.get('currency', '')
+                            amount = award.get('amount', '')
+                            print(f'> 获得：【{currency}】x{amount}')
+                    else:
+                        print(f'> 本关无奖励')
+                    # random_time =random.randint(10,15)
+                    # print(f'>> 等待{random_time}秒 <<')
+                    # time.sleep(random_time)
+                else:
+                    error_message = response.get('errorMessage', '无返回')
+                    print(error_message)
+                    if '没有资格参与活动' in error_message:
+                        self.DRAGONBOAT_2024_black = True
+                        Log('会员日任务风控')
+        except Exception as e:
+            print(e)
+
+    def main(self):
+        global one_msg
+        wait_time = random.randint(1000, 3000) / 1000.0  # 转换为秒
+        time.sleep(wait_time)  # 等待
+        one_msg = ''
+        if not self.login_res: return False
+        # 执行签到任务
+        self.sign()
+        self.superWelfare_receiveRedPacket()
+        self.get_SignTaskList()
+        self.get_SignTaskList(True)
+
+        # 执行丰蜜任务
+        self.honey_indexData()
+        # 获取任务列表并执行任务
+        self.get_honeyTaskListStart()
+        self.honey_indexData(True)
+
+        # #######################################
+        # # # 获取当前季度结束日期
+        # # activity_end_date = get_quarter_end_date()
+        # # if is_activity_end_date(activity_end_date):
+        # #     Log("今天采蜜活动截止兑换，请及时进行兑换")
+        # #     send('顺丰速运挂机通知', "今天采蜜活动截止兑换，请及时进行兑换")
+        # # target_time = datetime(2024, 4, 8, 19, 0)
+        # # if datetime.now() < target_time:
+        # #     # self.EAR_END_2023_TaskList()
+        # #     self.anniversary2024_task()
+        # # else:
+        # #     print('周年庆活动已结束')
+        # #######################################
+        # self.member_day_index()
+        current_date = datetime.now().day
+        if 26 <= current_date <= 28:
+            self.member_day_index()
+
+        else:
+            print('未到指定时间不执行会员日任务')
+
+        if self.DRAGONBOAT_2024_index():
+            self.DRAGONBOAT_2024_weeklyGiftStatus()
+            self.DRAGONBOAT_2024_coinStatus()
+            self.DRAGONBOAT_2024_taskList()
+            self.DRAGONBOAT_2024_Game_init()
+            self.DRAGONBOAT_2024_coinStatus(True)
+
+        self.sendMsg()
+        return True
+
+    def sendMsg(self, help=False):
+        if self.send_UID:
+            push_res = CHERWIN_TOOLS.wxpusher(self.send_UID, one_msg, APP_NAME, help)
+            print(push_res)
+
+
+def get_quarter_end_date():
+    current_date = datetime.now()
+    current_month = current_date.month
+    current_year = current_date.year
+
+    # 计算下个季度的第一天
+    next_quarter_first_day = datetime(current_year, ((current_month - 1) // 3 + 1) * 3 + 1, 1)
+
+    # 计算当前季度的最后一天
+    quarter_end_date = next_quarter_first_day - timedelta(days=1)
+
+    return quarter_end_date.strftime("%Y-%m-%d")
+
+
+def is_activity_end_date(end_date):
+    current_date = datetime.now().date()
+    end_date = datetime.strptime(end_date, "%Y-%m-%d").date()
+
+    return current_date == end_date
+
+
+def down_file(filename, file_url):
+    print(f'开始下载：{filename}，下载地址：{file_url}')
+    try:
+        response = requests.get(file_url, verify=False, timeout=10)
+        response.raise_for_status()
+        with open(filename + '.tmp', 'wb') as f:
+            f.write(response.content)
+        print(f'【{filename}】下载完成！')
+
+        # 检查临时文件是否存在
+        temp_filename = filename + '.tmp'
+        if os.path.exists(temp_filename):
+            # 删除原有文件
+            if os.path.exists(filename):
+                os.remove(filename)
+            # 重命名临时文件
+            os.rename(temp_filename, filename)
+            print(f'【{filename}】重命名成功！')
+            return True
+        else:
+            print(f'【{filename}】临时文件不存在！')
+            return False
+    except Exception as e:
+        print(f'【{filename}】下载失败：{str(e)}')
+        return False
+
+
+def import_Tools():
+    global CHERWIN_TOOLS, ENV, APP_INFO, TIPS, TIPS_HTML, AuthorCode
+    import CHERWIN_TOOLS
+    ENV, APP_INFO, TIPS, TIPS_HTML, AuthorCode = CHERWIN_TOOLS.main(APP_NAME, local_script_name, ENV_NAME,
+                                                                    local_version)
+
+
+if __name__ == '__main__':
+    APP_NAME = '顺丰速运'
+    ENV_NAME = 'SFSY'
+    CK_NAME = 'url'
+    print(f'''
+✨✨✨ {APP_NAME}脚本✨✨✨
+✨ 功能：
+      积分签到
+      签到任务
+      采蜜任务
+      周年庆集卡
+✨ 抓包步骤：
+      打开{APP_NAME}APP或小程序
+      点击我的
+      打开抓包工具
+      点击“积分”，以下几种url之一：
+        https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/shareGiftReceiveRedirect
+        https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app/shareRedirect
+    多账号#分割 
+✨ ✨✨wxpusher一对一推送功能，
+  ✨需要定义变量export WXPUSHER=wxpusher的app_token，不设置则不启用wxpusher一对一推送
+  ✨需要在{ENV_NAME}变量最后添加@wxpusher的UID
+✨ 设置青龙变量：
+export {ENV_NAME}='url'多账号#分割
+export SCRIPT_UPDATE = 'False' 关闭脚本自动更新，默认开启
+✨✨✨ @Author CHERWIN✨✨✨
+    ''')
+
+    local_script_name = os.path.basename(__file__)
+    local_version = '2024.06.02'
+    if IS_DEV:
+        import_Tools()
+    else:
+        if os.path.isfile('CHERWIN_TOOLS.py'):
+            import_Tools()
+        else:
+            if down_file('CHERWIN_TOOLS.py', 'https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/CHERWIN_TOOLS.py'):
+                print('脚本依赖下载完成请重新运行脚本')
+                import_Tools()
+            else:
+                print(
+                    '脚本依赖下载失败，请到https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/CHERWIN_TOOLS.py下载最新版本依赖')
+                exit()
+    print(TIPS)
+    token = ''
+    token = ENV if ENV else token
+    if not token:
+        print(f"未填写{ENV_NAME}变量\n青龙可在环境变量设置 {ENV_NAME} 或者在本脚本文件上方将{CK_NAME}填入token =''")
+        exit()
+    tokens = token.split('#')
+    # print(tokens)
+    if len(tokens) > 0:
+        print(f"\n>>>>>>>>>>共获取到{len(tokens)}个账号<<<<<<<<<<")
+        for index, infos in enumerate(tokens):
+            run_result = RUN(infos, index).main()
+            if not run_result: continue
+        if send: send(f'{APP_NAME}挂机通知', send_msg + TIPS_HTML)

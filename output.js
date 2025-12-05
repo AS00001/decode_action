@@ -1,4 +1,4 @@
-//Sat Aug 16 2025 01:00:15 GMT+0000 (Coordinated Universal Time)
+//Fri Dec 05 2025 11:46:27 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 const li1liI = new lI1i1i("联通云盘抽奖"),
